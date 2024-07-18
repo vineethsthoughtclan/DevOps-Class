@@ -14,6 +14,7 @@ public class HelloController {
     @GetMapping(path = "/hello")
     public Map<String, String> sayHello() {
         // this function is used for the hello controller
+        // it  return status running message
         return Map.of("status", "running", "message", "hello, stranger!");
     }
 }
